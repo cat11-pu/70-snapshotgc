@@ -1,0 +1,14 @@
+{
+  "chain_code": "E_CHAIN_BROKEN",
+  "policy": {"keep": 3, "age": 10},
+  "now": 30,
+  "protected_ids": ["s2"],
+  "done": ["s1"],
+  "snapshots": [
+    {"id": "s0", "at": 0, "parent": null},
+    {"id": "s1", "at": 10, "parent": "s0"},
+    {"id": "s2", "at": 12, "parent": "s1"},
+    {"id": "s3", "at": 25, "parent": "s2"},
+    {"id": "s4", "at": 28, "parent": "s3"}
+  ]
+}
